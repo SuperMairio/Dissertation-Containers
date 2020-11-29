@@ -55,7 +55,7 @@ def GetGrades():
     addGrades = input("Would you like to add more grades?(y/n) ")
     currentGrades = GRADES
 
-    if (addGrades == "y"):
+    if addGrades == "y":
         howMany = int(input("How many would you like to add? ")
 
         while howMany != 1:
@@ -127,12 +127,12 @@ def CalculateRequired(numHave):
 print("******************************\n*** Mairi's GPA Calculator ***\n******************************\n1: Get current GPA\n2: Calculate required grades\n3: Calculate potential GPA ")
 userInput = input("\nPlease pick an option: ") 
 
-if (userInput == "1"):
+if userInput == "1":
     print("GPA:",GPA,"\nGrades:",GRADES)
-elif (userInput == "2"):
+elif userInput == "2":
     howMany = int(input("How many grades do you currently have? "))
     CalculateRequired(howMany)
-elif (userInput == "3"):
+elif userInput == "3":
     CalculateGPA()
 else:
     exit()
