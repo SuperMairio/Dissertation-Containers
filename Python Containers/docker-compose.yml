@@ -1,0 +1,12 @@
+version: '2'
+
+volumes:
+  GPAs:
+
+services:
+  rocky_bot:
+    build: .
+    volumes:
+      - GPAs:/GPAs:rw
+    env_file:
+      - GradesandGPA.env
