@@ -58,7 +58,7 @@ def GetGrades():
     if (addGrades == "y"):
         howMany = int(input("How many would you like to add? ")
 
-        while(howMany != 1):
+        while howMany != 1:
             extras = input("Please add the next grade:")
             currentGrades.append(extras)
             howMany -= 1
