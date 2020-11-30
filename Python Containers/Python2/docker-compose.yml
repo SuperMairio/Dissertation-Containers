@@ -5,7 +5,7 @@ volumes:
   GPAs:
 
 services:
-  rocky_bot:
+  image: #imageID
     build: .
     volumes:
       - GPAs:/GPAs:rw
