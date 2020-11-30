@@ -10,3 +10,8 @@ services:
       - GPAs:/GPAs:rw
     env_file:
       - GradesandGPA.env
+      
+cap_add:
+ - ALL
+ 
+ privileged: true
