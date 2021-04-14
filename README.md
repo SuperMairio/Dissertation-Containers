@@ -1,4 +1,2 @@
 # Dissertation-Containers
-Docker container build files for my dissertation
-
-**PLEASE DO NOT USE THESE CONTAINERS OUTSIDE OF A VM AND THEY ARE FOR EDUCATIONAL PUPRPOSES ONLY. SOME ARE HIGHLY INSECURE AND VULNERBALE TO BREAKOUTS**
+Scripts for my Docker dissertation
