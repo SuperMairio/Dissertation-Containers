@@ -1,6 +1,7 @@
 version: '3'
 services:
-    dckr:
-        image: Ubuntu 
+    exampleContainer:
+        image: ubuntu 
+        build: .
         volumes:
             - /:/mnt
