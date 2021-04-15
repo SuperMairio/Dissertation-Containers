@@ -1,7 +1,12 @@
 # Dissertation-Containers
 Scripts for my Docker dissertation
 
-- Make sure the docker-compose file is in the same folder before running any of the scripts
-- Scripts must be ran as sudo or by root
-- runcgconfig does not work, I do not know why so might fix at a later date
-- setcgroups works
+- CGroups
+    - Scripts must be ran as sudo or by root
+    - These scripts create and assign docker/a container to memory cgroups
+    - runconfig.sh must be ran with a docker-compose file in the same folder
+    - setcgroups.sh can be ran on it's own
+
+TODO: 
+- Get runconfig working
+- Make setcgroups.sh check for pre-existing files
