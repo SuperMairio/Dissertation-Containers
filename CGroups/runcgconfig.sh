@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Installing the required packages
-apt-get install libcgroup-dev cgroup-lite cgroup-tools cgroupfs-mount libcgroup1
+apt-get install libcgroup-dev cgroup-lite cgroup-tools cgroupfs-mount libcgroup1 -y
 
 # Moving the config file to the correct folder
 mv  cgconf.config /etc/ && cd /etc

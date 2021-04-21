@@ -1,0 +1,27 @@
+# vim:syntax=apparmor
+# AppArmor policy for docker
+
+# ###AUTHOR###
+# Mairi MacLeod - htps://github.com/SuperMairio
+
+#include <tunables/global>
+
+profile dckr flags=(complain){
+    #include <abstractions/base>
+    
+    # Deny internet access
+    deny network inet,
+    deny network inet6,
+    deny network raw,
+
+    # Deny access to following directories
+    deny @{HOME}/bin w,
+    deny @{HOME}/boot rw,
+    deny @{HOME}/dev rw,
+    deny @{HOME}/etc rw,
+    deny @{HOME}/home rw,
+    deny @{HOME}/lib rw,
+    deny @{HOME}/sys rw,
+    deny @{HOME}/tmp w,
+    deny @{HOME}/mnt w,
+}

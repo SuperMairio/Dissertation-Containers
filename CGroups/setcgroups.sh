@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Installing the required packages
-apt-get install libcgroup-dev cgroup-lite cgroup-tools cgroupfs-mount libcgroup1
+apt-get install libcgroup-dev cgroup-lite cgroup-tools cgroupfs-mount libcgroup1 -y
 
 # Creating required folder and setting the memory limits
 mkdir /sys/fs/cgroup/memory/dckr
