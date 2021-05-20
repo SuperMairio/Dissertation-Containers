@@ -14,5 +14,5 @@ Scripts for my Docker dissertation
 - usr.bin.docker is my handmade apparmor profile
 - runbane.sh installs and runs  <a href="https://github.com/genuinetools/bane"> bane </a> 
 
-## Recordings
+## Recordings:
 - To play recordings: `asciinema play recording`
