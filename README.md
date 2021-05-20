@@ -13,3 +13,6 @@ Scripts for my Docker dissertation
 - apparmor.sh loads usr.bin.docker into the kernel 
 - usr.bin.docker is my handmade apparmor profile
 - runbane.sh installs and runs  <a href="https://github.com/genuinetools/bane"> bane </a> 
+
+## Recordings
+- To play recordings: `asciinema play recording`
